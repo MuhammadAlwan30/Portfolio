@@ -2,6 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import Counter from './lib/Counter.svelte'
+  import Home from './Home.svelte'
 </script>
 
 <main>
@@ -26,6 +27,7 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p>
+<Home />
 </main>
 
 <style>
