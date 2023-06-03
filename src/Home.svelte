@@ -5,15 +5,13 @@
     }
 </script>
 
-<header class="m-0 p-4 w-full flex flex-row h-16 bg-green-500"><nav>
-    <a href="#Home" class="text-gray-900"><div>
-        Home
-    </div></a>
-    <a href="#about">About</a>
-    <a href="#blog">Blog</a>
-    <a href="#project">Project</a>
-    <a href="#contact">contact</a>
+<header class="m-0 p-4 w-full flex flex-row-reverse h-16 bg-green-500"><nav class="flex justify-center mx-2 w-1/2">
+    <a href="#home" class="block mx-2 text-gray-800" >Home</a>
+    <a href="#about" class="block mx-2 text-gray-800">about</a>
+    <a href="#blog" class="block mx-2 text-gray-800">blog</a>
+
 </nav>
+
     </header>
 
 
