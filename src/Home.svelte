@@ -16,7 +16,10 @@
         </ul>
     </nav>
 </header>
-<main class="w-full min-h-[90vh] bg-indigo-400 grid place-items-center">
+<main class="w-full min-h-[90vh] bg-indigo-400 grid">
+    <div class="card w-80 h-90 mt-2 ml-2 rounded-lg border-[1px]"><div class="h-10 w-full bg-red-200">
+
+    </div>this is div</div>
     <p>Hello my name is <span class="inline-block font-mono text-xl">Alwan</span></p>
 </main>
 
