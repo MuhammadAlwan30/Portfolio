@@ -14,5 +14,6 @@ box-sizing: border-box;
 }
 body{
     font-size: 16px;
+    color:#0a0a0a;
     font-family: "Open Sans", "times new roman", sans-serif;
 }
