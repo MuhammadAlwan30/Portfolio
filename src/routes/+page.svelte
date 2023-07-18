@@ -33,7 +33,7 @@ import Dark from "./components/dark.svelte";
     </section>
 
     <!-- skill section -->
-    <section class="h-[100%] block bg-gray-400">
+    <section class="min-h-screen block bg-gray-400">
         <h1 class="text-center">skills</h1>
         <div class="card-container m-auto mb-32 p-3 w-full max-w-2xl h-auto bg-solid flex justify-between flex-wrap rounded-xl">
             <div class="card-content w-40 h-40 bg-slate-300 flex flex-col p-3 m-2 justify-center border-2 border-black items-center rounded-xl hover:bg-blue-500 transition-colors duration-300">
