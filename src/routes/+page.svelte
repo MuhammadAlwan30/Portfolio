@@ -13,7 +13,7 @@
 
 <body>
 	<header class="bg-solid" id="head">
-		<nav class="flex justify-between items-center w-[92%] mx-auto">
+		<nav class="flex justify-between items-center w-[92%] mx-auto" id="navbar">
 			<div id="logo" class="p-2 w-auto mx-2 flex cursor-pointer">
 				<img src="logo.svg" alt="logoimage" srcset="" class="mx-2" />M.Alwan
 			</div>
@@ -55,8 +55,17 @@
 		</div>
 	</section>
 
+	<!-- about section -->
+	<section id="about" class="min-h-screen bg-emerald-400 h-[95vh] w-full grid place-items-center">
+		<div class="m-1 p-2">
+			<h1 class="text-center">About</h1>
+			<h2 class="indent-8">Experienced web developer with a passion for crafting elegant solutions in code. Two years of honing skills, building robust websites, and embracing the ever-evolving landscape of web development.
+			</h2>
+		</div>
+		</section>
+
 	<!-- skill section -->
-	<section class="min-h-[110vh] block bg-gray-400">
+	<section class="min-h-[100vh] block bg-gray-400">
 		<h1 class="text-center">skills</h1>
 		<div
 			class="card-container m-auto mb-32 p-3 w-full max-w-2xl h-auto bg-solid flex justify-between flex-wrap rounded-xl">
@@ -96,9 +105,7 @@
 		</div>
 	</section>
 
-	<section id="about" class="bg-emerald-400 h-[105vh] w-full block">
-		<h1 class="text-center">About</h1>
-	</section>
+	
 	<footer class="block bg-sky-500 text-center border-t-2 border-black rounded-t-2xl -mt-3 p-3 h-12">
 		&copy; 2023 by Muhammad Alwan
 	</footer>
